@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buttonborder"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ImeDogadjaja"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Ime Dogadjaja" />
+
+    <TextView
+        android:id="@+id/VremeDogadjaja"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/ImeDogadjaja"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Vreme Dogadjaja" />
+
+    <TextView
+        android:id="@+id/DatumDogadjaja"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/ImeDogadjaja"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toEndOf="@+id/VremeDogadjaja"
+        android:layout_toRightOf="@+id/VremeDogadjaja"
+        android:text="Datum Dogadjaja" />
+
+    <TextView
+        android:id="@+id/BendDogadjaja"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/VremeDogadjaja"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Bend Dogadjaja" />
+
+    <TextView
+        android:id="@+id/CenaDogadjaja"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/VremeDogadjaja"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toEndOf="@+id/BendDogadjaja"
+        android:layout_toRightOf="@+id/BendDogadjaja"
+        android:text="Cena Dogadjaja" />
+
+
+</RelativeLayout>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ObjectActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pozadina1">
+
+        <ImageView
+            android:id="@+id/Logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/google_map" />
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/Logo"
+            android:layout_toRightOf="@+id/Logo"
+            android:gravity="center"
+            android:text="Name"
+            android:textColor="@color/orange"
+            android:textSize="40sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/Contact"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_toEndOf="@+id/Logo"
+            android:layout_toRightOf="@+id/Logo"
+            android:gravity="center"
+            android:text="Contact"
+            android:textColor="@color/textcolor" />
+
+        <TextView
+            android:id="@+id/Grade"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/Name"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/Contact"
+            android:layout_toRightOf="@+id/Contact"
+            android:gravity="center"
+            android:text="Stars"
+            android:textColor="@color/textcolor" />
+
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/Logo"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Location"
+            android:textColor="@color/textcolor" />
+
+        <TextView
+            android:id="@+id/OpenTime"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/Location"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="OpenTime"
+            android:textColor="@color/textcolor" />
+
+        <TextView
+            android:id="@+id/Kind"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/Logo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/Location"
+            android:layout_toRightOf="@+id/Location"
+            android:gravity="center"
+            android:text="Kind"
+            android:textColor="@color/textcolor" />
+
+        <TextView
+            android:id="@+id/Music"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/Kind"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/OpenTime"
+            android:layout_toRightOf="@+id/OpenTime"
+            android:gravity="center"
+            android:text="Music"
+            android:textColor="@color/textcolor" />
+
+
+        <Button
+            android:id="@+id/Scheme"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/OpenTime"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_toStartOf="@+id/Menu"
+            android:layout_toLeftOf="@+id/Menu"
+            android:background="@drawable/orangeborder"
+            android:text="Scheme"
+            android:textColor="@color/textcolor" />
+
+        <Button
+            android:id="@+id/Menu"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/OpenTime"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/orangeborder"
+            android:text="Menu"
+            android:textColor="@color/textcolor" />
+
+        <Button
+            android:id="@+id/Events"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/OpenTime"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/Menu"
+            android:layout_toRightOf="@+id/Menu"
+            android:background="@drawable/orangeborder"
+            android:text="Events"
+            android:textColor="@color/textcolor" />
+
+        <HorizontalScrollView
+            android:id="@+id/ScrollId"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_below="@+id/Scheme"
+            android:layout_marginTop="10dp"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:id="@+id/ObjImages"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+        <RatingBar
+            android:id="@+id/Ratings"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ScrollId"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:rating="0"
+            android:stepSize="1" />
+
+        <Button
+            android:id="@+id/SeeAllComm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ScrollId"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/Ratings"
+            android:layout_toRightOf="@+id/Ratings"
+            android:background="@drawable/buttonborder"
+            android:text="See All Comments"
+            android:textColor="@color/backbuttoncolor" />
+
+        <EditText
+            android:id="@+id/EnterComm"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/Ratings"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Comment"
+            android:textColor="@color/orange"
+            android:textColorHint="@color/textcolor" />
+
+        <Button
+            android:id="@+id/Comm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/Ratings"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toEndOf="@+id/EnterComm"
+            android:layout_toRightOf="@+id/EnterComm"
+            android:background="@drawable/buttonborder"
+            android:text="Comment"
+            android:textColor="@color/backbuttoncolor" />
+
+        <Button
+            android:id="@+id/approveButton"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/EnterComm"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/orangeborder"
+            android:text="Approve object"
+            android:textColor="@color/textcolor" />
+
+        <Button
+            android:id="@+id/declineButton"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/Comm"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/orangeborder"
+            android:text="Decline object"
+            android:textColor="@color/textcolor" />
+
+        <Button
+            android:id="@+id/buttonVisited"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/Comm"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/orangeborder"
+            android:text="Visit"
+            android:textColor="@color/textcolor" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

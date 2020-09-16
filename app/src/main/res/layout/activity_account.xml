@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina1"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".ObjectActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewAvatar"
+            android:layout_width="122dp"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/imageborder"
+            android:backgroundTint="@color/colorAccent3"
+            android:hint="@string/Avatar"
+            android:textColor="@android:color/white"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <LinearLayout
+            android:id="@+id/InfoBox"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/imageViewAvatar"
+            android:background="@drawable/orangeborder"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Username"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:textColor="@color/textcolor" />
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:textColor="@color/textcolor" />
+
+            <TextView
+                android:id="@+id/Surname"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:textColor="@color/textcolor" />
+
+            <TextView
+                android:id="@+id/City"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:textColor="@color/textcolor" />
+
+            <TextView
+                android:id="@+id/Dateofbirth"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:textColor="@color/textcolor" />
+
+            <TextView
+                android:id="@+id/PhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:textColor="@color/textcolor" />
+
+            <TextView
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingLeft="3dp"
+                android:textColor="@color/textcolor" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/Search"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/InfoBox"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextAddFriend"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/searchborder"
+                android:ems="10"
+                android:hint="@string/insertName"
+                android:inputType="textPersonName"
+                android:paddingLeft="3dp"
+                android:textColorHint="@color/backbuttoncolor"
+                android:textColorLink="@color/orange" />
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/editTextAddFriend"
+                android:background="@drawable/buttonborder"
+                android:text="Search"
+                android:textColor="@color/backbuttoncolor" />
+
+            <Button
+                android:id="@+id/EditButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toEndOf="@+id/searchButton"
+                android:layout_toRightOf="@+id/searchButton"
+                android:background="@drawable/buttonborder"
+                android:text="@string/edit"
+                android:textColor="@color/backbuttoncolor" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ButtonBox"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/Search"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/orangeborder">
+
+            <Button
+                android:id="@+id/buttonFriends"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/friendsbutton"
+                android:text="@string/friends"
+                android:textColor="@color/backbuttoncolor" />
+
+            <Button
+                android:id="@+id/buttonVisited"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/friendsbutton"
+                android:text="@string/visited"
+                android:textColor="@color/backbuttoncolor" />
+
+            <Button
+                android:id="@+id/buttonRatings"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/friendsbutton"
+                android:text="Ratings"
+                android:textColor="@color/backbuttoncolor" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/ListViewAcc"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/ButtonBox"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/listborder"
+            android:padding="5dp" />
+
+
+        <Button
+            android:id="@+id/buttonAddFriend"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewAvatar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toStartOf="@+id/InfoBox"
+            android:layout_toLeftOf="@+id/InfoBox"
+            android:background="@drawable/orangeborder"
+            android:text="@string/addFriend"
+            android:textColor="@color/textcolor" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

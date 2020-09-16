@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina1"
+    android:orientation="vertical"
+    tools:context=".EventActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newEventButton"
+        android:text="Create New Event"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#D5D6D2"
+        android:textSize="20sp"
+        android:background="@drawable/orangeborder"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="3dp"
+        android:text="Click On Event To Reserve"
+        android:textColor="@color/textcolor"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/listaDogadjaja"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/listborder"
+        android:padding="5dp">
+
+    </ListView>
+
+
+</LinearLayout>

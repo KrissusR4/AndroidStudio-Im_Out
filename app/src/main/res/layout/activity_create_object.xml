@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina1"
+    android:orientation="vertical"
+    tools:context=".CreateObjectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textcolor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/objectCreateName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Object Name"
+                android:inputType="textPersonName"
+                android:textColor="@color/orange"
+                android:textColorHint="@color/textcolor" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textcolor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/objectCreateAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Object Address"
+                android:inputType="textPersonName"
+                android:textColor="@color/orange"
+                android:textColorHint="@color/textcolor" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textcolor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/objectCreateType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Object Type"
+                android:inputType="textPersonName"
+                android:textColor="@color/orange"
+                android:textColorHint="@color/textcolor" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textcolor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/objectCreateLocationX"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Object Location X - Google Maps"
+                android:inputType="number"
+                android:textColor="@color/orange"
+                android:textColorHint="@color/textcolor" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textcolor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/objectCreateLocationY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Object Location Y - Google Maps"
+                android:inputType="number"
+                android:textColor="@color/orange"
+                android:textColorHint="@color/textcolor" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textcolor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/objectCreateContact"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Object Contact"
+                android:inputType="phone"
+                android:textColor="@color/orange"
+                android:textColorHint="@color/textcolor" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textcolor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/objectCreateTimeOpened"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Object Time Opened"
+                android:inputType="time"
+                android:textColor="@color/orange"
+                android:textColorHint="@color/textcolor" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textcolor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/objectCreateMusicPreference"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Object Music Preference"
+                android:inputType="text"
+                android:textColor="@color/orange"
+                android:textColorHint="@color/textcolor" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textcolor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/objectCreateHighTables"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Object High Tables"
+                android:inputType="text"
+                android:textColor="@color/orange"
+                android:textColorHint="@color/textcolor" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textcolor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/objectCreateLowTables"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Object Low Tables"
+                android:inputType="text"
+                android:textColor="@color/orange"
+                android:textColorHint="@color/textcolor" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/textcolor">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/objectCreateBarChairs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Object Bar Chairs"
+                android:inputType="text"
+                android:textColor="@color/orange"
+                android:textColorHint="@color/textcolor" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text=" We need pictures for your object! \n Logo - Object - Menu \n Send them on this e-mail! \n imout2k19@gmail.com"
+            android:textAllCaps="false"
+            android:textColor="@color/orange"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/objectCreateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/orangeborder"
+            android:padding="3dp"
+            android:text="Tap To Create Object"
+            android:textColor="@color/textcolor" />
+
+    </LinearLayout>
+
+</ScrollView>

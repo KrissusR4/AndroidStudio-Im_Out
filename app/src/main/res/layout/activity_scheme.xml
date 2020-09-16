@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina1"
+    tools:context=".SchemeActivity">
+
+    <TextView
+        android:id="@+id/LabelAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="All"
+        android:textColor="@color/textcolor" />
+
+    <TextView
+        android:id="@+id/LabelAllTables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAll"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Number of all tables: "
+        android:textColor="@color/textcolor" />
+
+    <TextView
+        android:id="@+id/AllTables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAll"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/LabelAllTables"
+        android:layout_toRightOf="@+id/LabelAllTables"
+        android:textColor="@color/textcolor">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/LabelLowTables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAllTables"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Number of all low tables: "
+        android:textColor="@color/textcolor" />
+
+    <TextView
+        android:id="@+id/LowTables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAllTables"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/LabelLowTables"
+        android:layout_toRightOf="@+id/LabelLowTables"
+        android:hint="number"
+        android:textColor="@color/textcolor">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/LabelHighTables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelLowTables"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Number of all high tables: "
+        android:textColor="@color/textcolor" />
+
+
+    <TextView
+        android:id="@+id/HighTables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelLowTables"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/LabelHighTables"
+        android:layout_toRightOf="@+id/LabelHighTables"
+        android:hint="number"
+        android:textColor="@color/textcolor">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/LabelBarChairs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelHighTables"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Number of all chairs at the bar: "
+        android:textColor="@color/textcolor" />
+
+
+    <TextView
+        android:id="@+id/BarChairs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelHighTables"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/LabelBarChairs"
+        android:layout_toRightOf="@+id/LabelBarChairs"
+        android:hint="number"
+        android:textColor="@color/textcolor">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/LabelAvailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelBarChairs"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Available"
+        android:textColor="@color/textcolor" />
+
+    <TextView
+        android:id="@+id/LabelAvailableTables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAvailable"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Number of all available tables: "
+        android:textColor="@color/textcolor" />
+
+
+    <TextView
+        android:id="@+id/AvailableTables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAvailable"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/LabelAvailableTables"
+        android:layout_toRightOf="@+id/LabelAvailableTables"
+        android:hint="number"
+        android:textColor="@color/textcolor">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/LabelAvailableLowTables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAvailableTables"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Number of all available low tables: "
+        android:textColor="@color/textcolor" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAvailableTables"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/LabelAvailableLowTables"
+        android:layout_toRightOf="@+id/LabelAvailableLowTables">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/AvailableLowTables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="number"
+            android:textColor="@color/textcolor" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/LabelAvailableHighTables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAvailableLowTables"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Number of all available high tables: "
+        android:textColor="@color/textcolor" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAvailableLowTables"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/LabelAvailableHighTables"
+        android:layout_toRightOf="@+id/LabelAvailableHighTables">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/AvailableHighTables"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="number"
+            android:textColor="@color/textcolor" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/LabelAvailableBarChairs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAvailableHighTables"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Number of all available bar chairs: "
+        android:textColor="@color/textcolor" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LabelAvailableHighTables"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/LabelAvailableBarChairs"
+        android:layout_toRightOf="@+id/LabelAvailableBarChairs">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/AvailableBarChairs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="number"
+            android:textColor="@color/textcolor" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/ChangeButton"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/LabelAvailableBarChairs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/orangeborder"
+        android:text="CHANGE"
+        android:textColor="@color/textcolor" />
+
+
+</RelativeLayout>

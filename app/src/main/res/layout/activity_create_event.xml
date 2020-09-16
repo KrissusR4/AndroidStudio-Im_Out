@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateEvent"
+    android:orientation="vertical"
+    android:background="@drawable/pozadina1">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/textcolor">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/eventName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Event Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/orange"
+            android:textColorHint="@color/textcolor" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/textcolor">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/eventTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Event Time"
+            android:inputType="textPersonName"
+            android:textColor="@color/orange"
+            android:textColorHint="@color/textcolor" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/textcolor">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/eventDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Event Date"
+            android:inputType="textPersonName"
+            android:textColor="@color/orange"
+            android:textColorHint="@color/textcolor" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/textcolor">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/eventBand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Event Band"
+            android:inputType="textPersonName"
+            android:textColor="@color/orange"
+            android:textColorHint="@color/textcolor" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/textcolor">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/eventPrice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Event Price To Attend"
+            android:inputType="textPersonName"
+            android:textColor="@color/orange"
+            android:textColorHint="@color/textcolor" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/eventCreateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/orangeborder"
+        android:padding="3dp"
+        android:text="Tap To Add New Event"
+        android:textColor="@color/textcolor" />
+
+</LinearLayout>

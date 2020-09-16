@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">I\'m Out!</string>
+    <string name="LogIn">Log in</string>
+    <string name="Register">Register</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="guestButton">Log in as Guest</string>
+
+
+    <!--Starting activity-->
+    <string name="title_activity_map">Map</string>
+    <string name="logOutButton">Log out!</string>
+
+
+    <!--//Register-->
+    <string name="Name">First Name</string>
+    <string name="Surname">Last Name</string>
+    <string name="DateOfBirth">Date of birth</string>
+    <string name="reqUsername">Username</string>
+    <string name="reqPassword">Password</string>
+    <string name="confirmedPassword">Confirm Password</string>
+    <string name="phoneNumber">Mobile phone Number</string>
+    <string name="eMail">Your email address</string>
+    <string name="city">City</string>
+    <string name="Avatar">Set Avatar</string>
+    <string name="insertAvatar">-Set your Avatar here!</string>
+
+
+    <!--User account-->
+
+    <string name="UserAccount">Account</string>
+    <string name="backButton">Go back</string>
+    <string name="friends">Friends</string>
+    <string name="visited">Visited</string>
+    <string name="addFriend">Add Friend</string>
+    <string name="edit">Edit</string>
+    <string name="insertName">Insert Username here</string>
+
+
+    <!--Map-->
+
+    <string name="EditTextLocalSearch">Find Your place</string>
+    <string name="searchButton">Search</string>
+    <string name="filterButton">Filters</string>
+
+    <!--Filters-->
+
+
+    <string name="ObjectType">Object type:</string>
+    <string name="chooseType">Choose type</string>
+
+
+    <string-array name="arrayObjectMusic">
+        <item>Object music</item>
+        <item>Rock</item>
+        <item>Chill</item>
+        <item>Techno</item>
+    </string-array>
+
+
+    <string-array name="arrayObjectType">
+        <item>Choose object type</item>
+        <item>Cafe</item>
+        <item>Restaurant</item>
+        <item>Inn</item>
+        <item>Pub</item>
+    </string-array>
+
+
+    <string name="ObjectMusic">Object music:</string>
+    <string name="objectMusic">Object music</string>
+
+
+    <!--Object Activity-->
+
+
+</resources>
